@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Work+Sans:wght@100;300&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+body{
+	color:black;
+	font-family: 'Rubik', sans-serif;
+	font-size:18px;
+	margin:0px;
+}
+
+h1, h2, h3{
+	color:#626567;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+a:hover{
+	color:grey;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 12px;
+
+}
